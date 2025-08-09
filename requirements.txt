@@ -1,0 +1,23 @@
+# Core LangChain and LLM dependencies
+langchain==0.2.1
+langchain_community==0.2.1
+langchain_huggingface==0.0.3
+transformers==4.41.2
+accelerate==0.30.1
+torch==2.3.1
+# Web framework and serving
+fastapi==0.111.0
+uvicorn==0.29.0
+gradio==4.31.5
+# Google Cloud Platform libraries
+google-cloud-aiplatform==1.49.0
+google-cloud-firestore==2.16.0
+google-cloud-logging==3.9.0
+google-cloud-bigquery==3.24.0
+google-cloud-storage==2.16.0
+google-cloud-monitoring==2.20.0  # <-- Added for metrics
+google-api-python-client==2.128.0
+# Other tools
+wikipedia==1.4.0
+pydantic==2.7.1
+python-dotenv==1.0.1
